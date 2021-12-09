@@ -9,5 +9,5 @@ All of my code and results from the datasets are in this repository. For conveni
 <br/><br/>
 The code for this project is in the file: project2_ai.py. The entire revision history is in the header of this file.
 <br/><br/>
-I included the results from my assigned datasets in .txt files, with the search type used, size of dataset, and dataset number listed in the file name. I also added the results from the two example small datasets provided (86 and 61), which I used to check my code before running my assigned datasets.
+I included the results from my assigned datasets in .txt files, with the search type used, size of dataset, and dataset number listed in the file name. I also added some of the results from the two example small datasets provided (86 and 61), which I used to check my code before running my assigned datasets.
 <br/>
