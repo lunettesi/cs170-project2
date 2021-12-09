@@ -1,0 +1,96 @@
+Project 2: Feature Selection Algorithm
+Data file entered Ver_2_CS170_Fall_2021_Small_data__86.txt
+algorithm option entered 1
+The dataset has 10 features (not including the class attribute), with 500 instances.
+
+       Using feature(s) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] accuracy is 79.60%
+Running nearest neighbor with all 10, using "leaving-one-out" evaluation, I get an accuracy of 79.60%
+
+Beinging search with Forward Selection,
+
+       Using feature(s) [1] accuracy is 74.60%
+       Using feature(s) [2] accuracy is 78.80%
+       Using feature(s) [3] accuracy is 84.40%
+       Using feature(s) [4] accuracy is 76.20%
+       Using feature(s) [5] accuracy is 77.00%
+       Using feature(s) [6] accuracy is 75.20%
+       Using feature(s) [7] accuracy is 77.80%
+       Using feature(s) [8] accuracy is 79.80%
+       Using feature(s) [9] accuracy is 77.60%
+       Using feature(s) [10] accuracy is 78.00%
+Feature set [3] was best, accuracy is 84.40%
+
+       Using feature(s) [3, 1] accuracy is 85.60%
+       Using feature(s) [3, 2] accuracy is 97.60%
+       Using feature(s) [3, 4] accuracy is 82.60%
+       Using feature(s) [3, 5] accuracy is 84.60%
+       Using feature(s) [3, 6] accuracy is 83.60%
+       Using feature(s) [3, 7] accuracy is 83.00%
+       Using feature(s) [3, 8] accuracy is 85.60%
+       Using feature(s) [3, 9] accuracy is 84.20%
+       Using feature(s) [3, 10] accuracy is 84.60%
+Feature set [3, 2] was best, accuracy is 97.60%
+
+       Using feature(s) [3, 2, 1] accuracy is 93.20%
+       Using feature(s) [3, 2, 4] accuracy is 94.00%
+       Using feature(s) [3, 2, 5] accuracy is 92.60%
+       Using feature(s) [3, 2, 6] accuracy is 93.20%
+       Using feature(s) [3, 2, 7] accuracy is 91.80%
+       Using feature(s) [3, 2, 8] accuracy is 95.00%
+       Using feature(s) [3, 2, 9] accuracy is 92.40%
+       Using feature(s) [3, 2, 10] accuracy is 93.40%
+(Waring, Accuracy has decreased! Continue search in case of lcoal maxima)
+Feature set [3, 2, 8] was best, accuracy is 95.00%
+
+       Using feature(s) [3, 2, 8, 1] accuracy is 90.80%
+       Using feature(s) [3, 2, 8, 4] accuracy is 90.20%
+       Using feature(s) [3, 2, 8, 5] accuracy is 88.20%
+       Using feature(s) [3, 2, 8, 6] accuracy is 90.40%
+       Using feature(s) [3, 2, 8, 7] accuracy is 88.80%
+       Using feature(s) [3, 2, 8, 9] accuracy is 89.00%
+       Using feature(s) [3, 2, 8, 10] accuracy is 91.80%
+(Waring, Accuracy has decreased! Continue search in case of lcoal maxima)
+Feature set [3, 2, 8, 10] was best, accuracy is 91.80%
+
+       Using feature(s) [3, 2, 8, 10, 1] accuracy is 87.20%
+       Using feature(s) [3, 2, 8, 10, 4] accuracy is 87.40%
+       Using feature(s) [3, 2, 8, 10, 5] accuracy is 86.00%
+       Using feature(s) [3, 2, 8, 10, 6] accuracy is 84.40%
+       Using feature(s) [3, 2, 8, 10, 7] accuracy is 88.20%
+       Using feature(s) [3, 2, 8, 10, 9] accuracy is 86.00%
+(Waring, Accuracy has decreased! Continue search in case of lcoal maxima)
+Feature set [3, 2, 8, 10, 7] was best, accuracy is 88.20%
+
+       Using feature(s) [3, 2, 8, 10, 7, 1] accuracy is 84.20%
+       Using feature(s) [3, 2, 8, 10, 7, 4] accuracy is 88.20%
+       Using feature(s) [3, 2, 8, 10, 7, 5] accuracy is 84.40%
+       Using feature(s) [3, 2, 8, 10, 7, 6] accuracy is 83.40%
+       Using feature(s) [3, 2, 8, 10, 7, 9] accuracy is 83.00%
+(Waring, Accuracy has decreased! Continue search in case of lcoal maxima)
+Feature set [3, 2, 8, 10, 7, 4] was best, accuracy is 88.20%
+
+       Using feature(s) [3, 2, 8, 10, 7, 4, 1] accuracy is 84.40%
+       Using feature(s) [3, 2, 8, 10, 7, 4, 5] accuracy is 83.80%
+       Using feature(s) [3, 2, 8, 10, 7, 4, 6] accuracy is 85.60%
+       Using feature(s) [3, 2, 8, 10, 7, 4, 9] accuracy is 83.60%
+(Waring, Accuracy has decreased! Continue search in case of lcoal maxima)
+Feature set [3, 2, 8, 10, 7, 4, 6] was best, accuracy is 85.60%
+
+       Using feature(s) [3, 2, 8, 10, 7, 4, 6, 1] accuracy is 81.20%
+       Using feature(s) [3, 2, 8, 10, 7, 4, 6, 5] accuracy is 83.00%
+       Using feature(s) [3, 2, 8, 10, 7, 4, 6, 9] accuracy is 84.40%
+(Waring, Accuracy has decreased! Continue search in case of lcoal maxima)
+Feature set [3, 2, 8, 10, 7, 4, 6, 9] was best, accuracy is 84.40%
+
+       Using feature(s) [3, 2, 8, 10, 7, 4, 6, 9, 1] accuracy is 80.40%
+       Using feature(s) [3, 2, 8, 10, 7, 4, 6, 9, 5] accuracy is 81.20%
+(Waring, Accuracy has decreased! Continue search in case of lcoal maxima)
+Feature set [3, 2, 8, 10, 7, 4, 6, 9, 5] was best, accuracy is 81.20%
+
+       Using feature(s) [3, 2, 8, 10, 7, 4, 6, 9, 5, 1] accuracy is 79.60%
+(Waring, Accuracy has decreased! Continue search in case of lcoal maxima)
+Feature set [3, 2, 8, 10, 7, 4, 6, 9, 5, 1] was best, accuracy is 79.60%
+
+search execution time: 165.0351s
+
+Finished Search!! The best feature subset is [3, 2], which has an accuracy of 97.60%
